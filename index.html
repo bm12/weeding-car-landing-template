@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Свадебные автомобили</title>
+    <link rel="icon" href="./img/favicon.png">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./plugin/noUiSlider/nouislider.css">
     <link rel="stylesheet" href="./plugin/owlCarousel/assets/owl.carousel.min.css">
@@ -42,9 +43,7 @@
                     </nav>
                     <div class="border_line"></div>
                     <div class="border_line2"></div>
-                    <div id="mob_menu" class="mob_menu">Меню
-
-                    </div>
+                    <div id="mob_menu" class="mob_menu">Меню</div>
 
                 </header>
                 <div class="title">
@@ -53,7 +52,7 @@
                         <br /> автомобили</h2>
                     <p class="title_p">в Махачкале</p>
                     <div class="wrap_call">
-                        <button class="callAutoBtn" type="button">Заказать автомобиль</button>
+                        <button class="call_auto_btn" type="button">Заказать автомобиль</button>
                         <a href="tel:+7 915 555 55 09" class="car_order_mob">+7 915 555 55 09</a>
                     </div>
                     <div class="border_title">
@@ -625,7 +624,7 @@
                         </ul>
                     </nav>
                     <div class="logo">
-                        <span>Merc</span>edec
+                        <span>Merc</span>edes
                         <div class="smallBox"> на прокат</div>
                     </div>
                     <div class="border_line"></div>
@@ -701,10 +700,10 @@
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <script>
         (function () {
-            function RunMaps(x,y) {
+            function RunMaps(x, y) {
                 var myMap;
                 ymaps.ready(init); // Ожидание загрузки API с сервера Яндекса
-                function init () {
+                function init() {
                     myMap = new ymaps.Map("map", {
                         center: [x, y], // Координаты центра карты
                         zoom: 16 // Zoom
@@ -713,25 +712,26 @@
                         geometry: {
                             type: "Point",
                             coordinates: [x, y]
-                        }});
-                        myMap.controls.add('zoomControl');
-                        myMap.geoObjects.add(myPlacemark);
-                    }
-                }
-
-                function AjaxGeoCoder(name) {
-                    $.ajax({
-                        async: true,
-                        url: "https://geocode-maps.yandex.ru/1.x/?geocode="+encodeURI(name)+"&results=1&format=json",
-                        success: function(data){
-                            var str = data.response.GeoObjectCollection.featureMember[0].GeoObject.Point.pos;
-                            var sta = str.split(' ');
-                            RunMaps(sta[1],sta[0]);
                         }
                     });
+                    myMap.controls.add('zoomControl');
+                    myMap.geoObjects.add(myPlacemark);
                 }
-                AjaxGeoCoder("1-й Нагатинский проезд, 15, Москва");
-            })()
+            }
+
+            function AjaxGeoCoder(name) {
+                $.ajax({
+                    async: true,
+                    url: "https://geocode-maps.yandex.ru/1.x/?geocode=" + encodeURI(name) + "&results=1&format=json",
+                    success: function (data) {
+                        var str = data.response.GeoObjectCollection.featureMember[0].GeoObject.Point.pos;
+                        var sta = str.split(' ');
+                        RunMaps(sta[1], sta[0]);
+                    }
+                });
+            }
+            AjaxGeoCoder("1-й Нагатинский проезд, 15, Москва");
+        })()
     </script>
 </body>
 

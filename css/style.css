@@ -181,7 +181,7 @@ body{
     margin: 0;
 }
 
-.callAutoBtn, .car_order_mob {
+.call_auto_btn, .car_order_mob {
     font-family:Qanelas;
     padding: 27px 55px;
     margin: 0;
@@ -194,7 +194,7 @@ body{
     text-transform: uppercase;
     color: #fff;
 }
-.callAutoBtn:active, .car_order_mob:active {
+.call_auto_btn:active, .car_order_mob:active {
     transform: translateY(3px);
     box-shadow: 0 1px 0 #3d9aa1;
 }
@@ -1406,4 +1406,7 @@ textarea.modal_input{
     height: 100%;
     background: rgba(0, 0, 0, 0.34);
     cursor: pointer;
+}
+.small_img_item .small_img {
+    max-height: 173px;
 }

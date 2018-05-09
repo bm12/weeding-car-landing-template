@@ -219,7 +219,7 @@
     .title_p{
         font-size: 32px;
     }
-    .callAutoBtn {
+    .call_auto_btn {
         display: none;
     }
     .car_order_mob {
@@ -258,11 +258,13 @@
     .car_order{
         display: none;
     }
+    .car_more {
+        display: none;
+    }
     .car_order_mob, .cur_car_order_mob{
         display: inline-block;
         text-decoration: none;
     }
-    
 
     .car_sld_round_in_top, .car_wrap_right .car_sld_round_in_bottom {
         left: -8%;
@@ -381,7 +383,7 @@
     .wrap_call{
         padding: 40px 0 6px;
     }
-    .callAutoBtn{
+    .call_auto_btn{
         padding: 15px 35px;
         font-size: 14px;
     }

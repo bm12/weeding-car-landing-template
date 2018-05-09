@@ -59,7 +59,7 @@ $(document).ready(function () {
         $('.mob_nav').removeClass('active');
     });
 
-    $('.callAutoBtn, .car_order').click(function () {
+    $('.call_auto_btn, .car_order').click(function () {
         $('#ordAuto').fadeIn(400);
     });
 
@@ -73,6 +73,9 @@ $(document).ready(function () {
 
     $('.wrap_all_car').on('click', '.car_more', function(e) {
         e.stopPropagation();
+        if ($('.wrap_more_info').length > 0) {
+            $('.wrap_more_info').remove();
+        }
         var $that = $(this);
         var template = $('#more_info_template').clone().html();
         $that.parent().parent().after(template);
@@ -82,10 +85,6 @@ $(document).ready(function () {
             nav: true,
             dots: false,
             responsive : {
-                0 : {
-                    margin: 5,
-                    items: 2
-                },
                 768 : {
                     margin: 10,
                     items: 3
@@ -108,6 +107,10 @@ $(document).ready(function () {
         $('.wrap_more_info').slideUp(350, function(){
             $('.wrap_more_info').remove();
         });
+    });
+    $('.wrap_all_car').on('click', '.small_img_item', function() {
+        var smallSrc = $(this).children('.small_img').attr('src');
+        $('.more_img').attr('src', smallSrc);
     });
 
 });
