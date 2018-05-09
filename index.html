@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Свадебные автомобили</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./plugin/noUiSlider/nouislider.css">
+    <link rel="stylesheet" href="./plugin/owlCarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./plugin/owlCarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mediaQueries.css">
+</head>
+<body>
+    <section class="screen_1">
+       <div class="dark"></div>
+        <div class="wrap_1">
+           
+            <div class="container">
+                <header class="header clearfix">
+                    <div class="logo"><span>Merc</span>edec <div class="smallBox"> на прокат</div></div>
+                    <nav class="nav">
+                        <ul class="nav_ul">
+                            <li><a href="#auto">Автомобили</a></li>
+                            <li><a href="#guarantee">Гарантии</a></li>
+                            <li><a href="#offers">Дополнительные услуги</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="border_line"></div>
+                    <div class="border_line2"></div>
+                    <div id="mob_menu" class="mob_menu">Меню
+                        
+                    </div>
+                    
+                </header>
+                <div class="title">
+                    <img class="ring" src="img/ring.png" alt="">
+                    <h2>Свадебные<br /> автомобили</h2>
+                    <p class="title_p">в Махачкале</p>
+                    <div class="wrap_call">
+                        <button class="callAutoBtn" type="button">Заказать автомобиль</button>
+                    </div>
+                    <div class="border_title">
+                        <div class="border_title_top1"></div>
+                        <div class="border_title_top2"></div>
+                    </div>
+                    <div class="border_title border_t2">
+                        <div class="border_title_top1"></div>
+                        <div class="border_title_top2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="screen_2">
+        <div class="wrap_2">
+            <div class="container_auto box-shadow">
+                <div id="auto" class="inner_wrap">
+                    <h2 class="title_car">Наши автомобили</h2>
+                    <img class="separ_car" src="img/separ_car.svg" alt="">
+                    <ul class="car_class">
+                    	<li><a href="">Премиум</a></li>
+                    	<li><a href="">бизнес</a></li>
+                    	<li><a href="">внедорожники</a></li>
+                    	<li><a href="">спортивные</a></li>
+                    </ul>
+                    <div class="mob_car_class">
+                    	<div class="gumb"></div><p class="mob_car_menu">Автомобили</p>
+                    </div>
+                    <div class="mob_car_class_wrap">
+                        <ul class="mob_car_class_ul">
+                            <li><a href="">Премиум</a></li>
+                            <li><a href="">бизнес</a></li>
+                            <li><a href="">внедорожники</a></li>
+                            <li><a href="">спортивные</a></li>
+                        </ul>
+                    </div>
+                    <div class="filter clearfix">
+                    	<p class="filt_title">Фильтр</p>
+							<select class="brand" name="brand" id="brand" >
+								<option value="Марка">Марка</option>
+								<option value="Марка">Марка</option>
+								<option value="Марка">Марка</option>
+								<option value="Марка">Марка</option>
+							</select>
+							<select class="model" name="model" id="model">
+								<option value="Модель">Модель</option>
+								<option value="Модель">Модель</option>
+								<option value="Модель">Модель</option>
+								<option value="Модель">Модель</option>
+								<option value="Модель">Модель</option>
+							</select>
+                    	<div class="place">
+                    		<p class="place_text">Мест</p>
+                    		<input type="number" min="0" class="place_from" placeholder="от">
+                    		<input type="number" min="0" class="place_to" placeholder="до">
+                    	</div>
+                    	<div class="price_car">
+                    		<p class="price_car_text">Цена</p>
+                    		<div class="wrap_noUiSld clearfix">
+								<div id="price_car_from" class="price_car_from"></div>
+								<div id="price_car_to" class="price_car_to"></div>
+								<div class="price_slider" id="price_slider"></div>
+                    		</div>
+                    		<button type="button" class="price_btn"><img src="img/search.svg" alt=""></button>
+                    	</div>
+                    </div>
+                    
+                	<div class="wrap_all_car clearfix">
+                    	<div class="car clearfix">
+							<div class="car_round_in top left"></div>
+							<div class="car_round_in top right"></div>
+							<div class="car_round_in bottom left"></div>
+							<div class="car_round_in bottom right"></div>
+							<div class="car_sld_wrap">
+								<div class="car_sld owl-carousel owl-theme clearfix">
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+								</div>
+								<div class="car_sld_round_in_top"></div>
+								<div class="car_sld_round_in_bottom"></div>
+							</div>
+							<div class="car_right">
+								<p class="car_name">
+									Mercedes-Benz<br />S-Class (W221)
+								</p>
+								<div class="car_line"></div>
+								<div class="car_line"></div>
+								<table class="car_par">
+									<tbody>
+										<tr>
+											<td>Пассажирских мест:</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Цвет: </td>
+											<td>Чёрный</td>
+										</tr>
+										<tr>
+											<td>Цвет салона: </td>
+											<td>Белый</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="car_line"></div>
+								<div class="car_line"></div>
+								<p class="car_price">от 10 000 руб.</p>
+								<button type="button" class="car_order">Заказать</button>
+								<button type="button" class="car_more">Подробнее</button>
+							</div>
+						</div>
+                		
+                		<div class="car car_wrap_right clearfix">
+							<div class="car_round_in top left"></div>
+							<div class="car_round_in top right"></div>
+							<div class="car_round_in bottom left"></div>
+							<div class="car_round_in bottom right"></div>
+							<div class="car_sld_wrap">
+								<div class="car_sld owl-carousel owl-theme clearfix">
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+								</div>
+								<div class="car_sld_round_in_top"></div>
+								<div class="car_sld_round_in_bottom"></div>
+							</div>
+							<div class="car_left">
+								<p class="car_name">
+									Mercedes-Benz<br />S-Class (W221)
+								</p>
+								<div class="car_line"></div>
+								<div class="car_line"></div>
+								<table class="car_par">
+									<tbody>
+										<tr>
+											<td>Пассажирских мест:</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Цвет: </td>
+											<td>Чёрный</td>
+										</tr>
+										<tr>
+											<td>Цвет салона: </td>
+											<td>Белый</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="car_line"></div>
+								<div class="car_line"></div>
+								<p class="car_price">от 10 000 руб.</p>
+								<button type="button" class="car_order">Заказать</button>
+								<button type="button" class="car_more">Подробнее</button>
+							</div>
+						</div>
+            			
+                		<div class="wrap_all_car_line">
+                			<button type="button" class="all_car_prem">Все автомобили премиум класса</button>
+                			<div class="wrap_car_line"></div>
+                		</div>
+                		
+                		<div class="car clearfix">
+							<div class="car_round_in top left"></div>
+							<div class="car_round_in top right"></div>
+							<div class="car_round_in bottom left"></div>
+							<div class="car_round_in bottom right"></div>
+							<div class="car_sld_wrap">
+								<div class="car_sld owl-carousel owl-theme clearfix">
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+								</div>
+								<div class="car_sld_round_in_top"></div>
+								<div class="car_sld_round_in_bottom"></div>
+							</div>
+							<div class="car_right">
+								<p class="car_name">
+									Mercedes-Benz<br />S-Class (W221)
+								</p>
+								<div class="car_line"></div>
+								<div class="car_line"></div>
+								<table class="car_par">
+									<tbody>
+										<tr>
+											<td>Пассажирских мест:</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Цвет: </td>
+											<td>Чёрный</td>
+										</tr>
+										<tr>
+											<td>Цвет салона: </td>
+											<td>Белый</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="car_line"></div>
+								<div class="car_line"></div>
+								<p class="car_price">от 10 000 руб.</p>
+								<button type="button" class="car_order">Заказать</button>
+								<button type="button" class="car_more">Подробнее</button>
+							</div>
+						</div>
+            			
+        				<div class="car car_wrap_right clearfix">
+							<div class="car_round_in top left"></div>
+							<div class="car_round_in top right"></div>
+							<div class="car_round_in bottom left"></div>
+							<div class="car_round_in bottom right"></div>
+							<div class="car_sld_wrap">
+								<div class="car_sld owl-carousel owl-theme clearfix">
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+									<div class="item">
+										<img class="car_img" src="img/car1.jpg" alt="">
+									</div>
+								</div>
+								<div class="car_sld_round_in_top"></div>
+								<div class="car_sld_round_in_bottom"></div>
+							</div>
+							<div class="car_left">
+								<p class="car_name">
+									Mercedes-Benz<br />S-Class (W221)
+								</p>
+								<div class="car_line"></div>
+								<div class="car_line"></div>
+								<table class="car_par">
+									<tbody>
+										<tr>
+											<td>Пассажирских мест:</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<td>Цвет: </td>
+											<td>Чёрный</td>
+										</tr>
+										<tr>
+											<td>Цвет салона: </td>
+											<td>Белый</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="car_line"></div>
+								<div class="car_line"></div>
+								<p class="car_price">от 10 000 руб.</p>
+								<button type="button" class="car_order">Заказать</button>
+								<button type="button" class="car_more">Подробнее</button>
+							</div>
+						</div>
+            		
+            			<div class="wrap_all_car_line">
+                			<button type="button" class="all_car_bisn">Все автомобили бизнес класса</button>
+                			<div class="wrap_car_line2"></div>
+                		</div>
+                		<div class="wrap_all_car_line">
+                			<button type="button" class="show_more">Показать ещё</button>
+                			<div class="wrap_car_line2"></div>
+                		</div>
+                    </div>
+                    
+                </div>
+                <img class="scr2_back" src="img/car_round_in_180deg.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="screen_3">
+    	<div class="wrap_3">
+    		<div class="container">
+                <div class="inner_wrap_3">
+                    <div class="border_screen_3">
+                        <div class="border_title_top1"></div>
+                        <div class="border_title_top2"></div>
+                        <div class="border_title_bottom1"></div>
+                        <div class="border_title_bottom2"></div>
+                    </div>
+                    <div class="border_screen_3 border_t2">
+                        <div class="border_title_top1"></div>
+                        <div class="border_title_top2"></div>
+                        <div class="border_title_bottom1"></div>
+                        <div class="border_title_bottom2"></div>
+                    </div>
+                    <div class="screen_3_title">
+                        <img src="img/screen_3_weedCar_logo.svg" alt="">
+                        <h2 class="screen_3_h2">Прокат автомобилей на свадьбу</h2>
+                        <p class="screen_3_p">Звоните по телефону</p>
+                        <div class="wrap_number_btn">
+                            <button type="button" class="number_btn">+7 (928) 833 33 31</button>
+                        </div>
+                    </div>
+                </div>
+    		</div>
+    	</div>
+    </section>
+    <section id="guarantee" class="screen_4">
+        <div class="container">
+            <h2 class="title_screen_4">Мы гарантируем</h2>
+            <img class="scr4_separ_car" src="img/separ_car.svg" alt="">
+            <div class="wrap_guarantee">
+                <div class="guarantee_block block1">
+                    <div class="car_round_in top left"></div>
+                    <div class="car_round_in top right"></div>
+                    <div class="car_round_in bottom left"></div>
+                    <div class="car_round_in bottom right"></div>
+                    <div class="guarantee_round_img">
+                        <img class="guarantee_round_img_car" src="img/guarantee_round_img_car.svg" alt="">
+                    </div>
+                    Идеальное состояние машины
+                </div><!--
+                --><div class="guarantee_block block2">
+                    <div class="car_round_in top left"></div>
+                    <div class="car_round_in top right"></div>
+                    <div class="car_round_in bottom left"></div>
+                    <div class="car_round_in bottom right"></div>
+                    <div class="guarantee_round_img">
+                        <img class="guarantee_round_img_diamond" src="img/guarantee_round_img_diamond.svg" alt="">
+                    </div>
+                    Богатый и опрятный салон
+                </div><!--
+                --><div class="guarantee_block block3">
+                    <div class="car_round_in top left"></div>
+                    <div class="car_round_in top right"></div>
+                    <div class="car_round_in bottom left"></div>
+                    <div class="car_round_in bottom right"></div>
+                    <div class="guarantee_round_img">
+                        <img class="guarantee_round_img_man" src="img/guarantee_round_img_man.svg" alt="">
+                    </div>
+                    Презентабельный вид нашего водителя
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="offers" class="screen_7">
+        <div class="container">
+            <h2 class="title_screen_7">Что еще мы можем предложить</h2>
+            <img class="scr4_separ_car" src="img/separ_car.svg" alt="">
+            <div class="wrap_offers">
+                <div class="offers_block block1">
+                    <div class="car_round_in top left"></div>
+                    <div class="car_round_in top right"></div>
+                    <div class="car_round_in bottom left"></div>
+                    <div class="car_round_in bottom right"></div>
+                    <div class="offers_wrap_img">
+                        <div class="car_round_in top left"></div>
+                        <div class="car_round_in top right"></div>
+                        <img src="img/offers_roddom.png" alt="">
+                    </div>
+                    <p class="offers_text">
+                        Встреча из роддома
+                    </p>
+                </div><!--
+             --><div class="offers_block block2"><!--
+                 --><div class="car_round_in top left"></div>
+                    <div class="car_round_in top right"></div>
+                    <div class="car_round_in bottom left"></div>
+                    <div class="car_round_in bottom right"></div>
+                    <div class="offers_wrap_img">
+                        <div class="car_round_in top left"></div>
+                        <div class="car_round_in top right"></div>
+                        <img src="img/offers_ornaments.png" alt="">
+                    </div>
+                    <p class="offers_text">
+                        Свадебные украшения для автомобиля
+                    </p>
+                </div><!--
+             --><div class="offers_block block3">
+                    <div class="car_round_in top left"></div>
+                    <div class="car_round_in top right"></div>
+                    <div class="car_round_in bottom left"></div>
+                    <div class="car_round_in bottom right"></div>
+                    <div class="offers_wrap_img">
+                        <div class="car_round_in top left"></div>
+                        <div class="car_round_in top right"></div>
+                        <img src="img/offers_bus.png" alt="">
+                    </div>
+                    <p class="offers_text">
+                        Микро-автобусы для перевозки большого количества гостей<br />
+                        <a href="#" class="numb_off">+7 (928) 528-24-29</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="screen_3 screen_8">
+    	<div class="wrap_3">
+    		<div class="container">
+                <div class="inner_wrap_3">
+                    <div class="border_screen_3">
+                        <div class="border_title_top1"></div>
+                        <div class="border_title_top2"></div>
+                        <div class="border_title_bottom1"></div>
+                        <div class="border_title_bottom2"></div>
+                    </div>
+                    <div class="border_screen_3 border_t2">
+                        <div class="border_title_top1"></div>
+                        <div class="border_title_top2"></div>
+                        <div class="border_title_bottom1"></div>
+                        <div class="border_title_bottom2"></div>
+                    </div>
+                    <div class="screen_3_title">
+                        <img src="img/screen_3_weedCar_logo.svg" alt="">
+                        <h2 class="screen_3_h2">Прокат автомобилей на свадьбу</h2>
+                        <p class="screen_3_p">Звоните по телефону</p>
+                        <div class="wrap_number_btn">
+                            <button type="button" class="number_btn">+7 (928) 833 33 31</button>
+                        </div>
+                    </div>
+                </div>
+    		</div>
+    	</div>
+    </section>
+    <section id="contacts" class="screen_9">
+        <div class="container">
+            <h2 class="title_screen_9">Контакты</h2>
+            <img class="scr4_separ_car" src="img/separ_car.svg" alt="">
+            <div class="wrap_contacts clearfix">
+                <div class="contact_block">
+                    <div class="contact_text">Телефон</div>
+                    <div class="contact_info">+7 928 833-33-31</div>
+                </div>
+                <div class="contact_block">
+                    <div class="contact_text">E-mail</div>
+                    <div class="contact_info">mercedec@gmail.com</div>
+                </div>
+                <div class="contact_block">
+                    <div class="contact_text">График работы</div>
+                    <div class="contact_info">Пн-Вс: с 9:00 до 21:00</div>
+                </div>
+                <div class="contact_block">
+                    <div class="contact_text">Адрес</div>
+                    <div class="contact_info">1-й Нагатинский проезд, 15</div>
+                </div>
+            </div>
+            <div class="wrap_map">
+                <div class="map" id="map"></div>
+            </div>
+        </div>
+    </section>
+        <div class="mob_nav">
+        <ul class="mob_nav_ul">
+            <li><a href="#auto">Автомобили</a></li>
+            <li><a href="#guarantee">Гарантии</a></li>
+            <li><a href="#offers">Дополнительные услуги</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+    </div>
+    <div id="ordAuto" class="wrap_modal_order">
+        <div class="modal">
+            <div class="modal_title">Забронировать автомобиль</div>
+            <div class="modal_form">
+                <div class="wrap_required_inp">
+                    <input class="modal_input" type="text" placeholder="Ваше имя">
+                    <div class="req_star">*</div>
+                </div>
+                <input class="modal_input" type="text" placeholder="Ваш e-mail">
+                <div class="wrap_required_inp">
+                    <input class="modal_input" type="text" placeholder="Ваш телефон">
+                    <div class="req_star">*</div>
+                </div>
+                <textarea class="modal_input" name="" id="" rows="10" placeholder="Комментарий"></textarea>
+                <input class="modal_button" type="button" value="Отправить">
+            </div>
+        </div>
+    </div>
+    <div class="wrap_modal_order">
+        <div class="modal">
+            <div class="modal_title">Забронировать автомобиль</div>
+            <div class="modal_form">
+                <div class="wrap_required_inp">
+                    <input class="modal_input" type="text" placeholder="Ваше имя">
+                    <div class="req_star">*</div>
+                </div>
+                <input class="modal_input" type="text" placeholder="Ваш e-mail">
+                <div class="wrap_required_inp">
+                    <input class="modal_input" type="text" placeholder="Ваш телефон">
+                    <div class="req_star">*</div>
+                </div>
+                <textarea class="modal_input" name="" id="" rows="10" placeholder="Комментарий"></textarea>
+                <input class="modal_button" type="button" value="Отправить">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="wrap_footer clearfix">
+                <div class="wrap_question">
+                    <p class="question">Остались вопросы?</p>
+                    <p class="call_quest">Позвоните нам по телефону <a href="#">+7&nbsp;928&nbsp;833&#8209;33&#8209;31</a> и мы Вам поможем!</p>
+                </div>
+                <div class="wrap_insta">
+                    <div class="insta_text">
+                        Мы в instagram:
+                    </div>
+                    <div class="insta_img">
+                        <img src="img/insta_icn.svg" alt="">
+                    </div>
+                </div>
+                <div class="footer_nav clearfix">
+                    <nav class="nav">
+                        <ul class="nav_ul">
+                            <li><a href="#auto">Автомобили</a></li>
+                            <li><a href="#guarantee">Гарантии</a></li>
+                            <li><a href="#offers">Дополнительные услуги</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <div class="logo"><span>Merc</span>edec <div class="smallBox"> на прокат</div></div>
+                    <div class="border_line"></div>
+                    <div class="border_line2"></div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="noUiSlider/nouislider.min.js"></script>
+    <script src="js/jquery.2.2.4.min.js"></script>
+    <script src="./plugin/owlCarousel/owl.carousel.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

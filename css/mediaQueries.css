@@ -1,0 +1,466 @@
+@media only screen and (max-width:1190px) {
+
+	.container, .container_auto {
+		width: 900px;
+	}
+	.container_auto{
+		background-position: center 21px;/*, center bottom+24px;*/
+	}
+	.price_car{
+		clear: both;
+		margin: 15px auto;
+		display: inline-block;
+	}
+	.place{
+		float: right;
+		margin-right: 25px;
+	}
+	.inner_wrap{
+    	margin: 0 4px;
+		border-left: 1px solid rgba(0, 0, 0, 0.07);
+    	border-right: 1px solid rgba(0, 0, 0, 0.07);
+	}
+    .logo{
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+    .nav{
+        float: none;
+    }
+    .nav_ul li{
+        float: none;
+        display: inline-block;
+    }
+    .nav_ul li a{
+        padding: 22px 0;
+    }
+    .nav_ul li:hover a{
+        padding: 22px 0 17px;
+    }
+    .nav_ul{
+        text-align: center;
+    }
+    .wrap_call{
+        margin-bottom: 145px;
+    }
+	
+	.car_sld_wrap, .car_wrap_right .car_sld_wrap{
+		float: none;
+	}
+	.car_sld_round_in_top{
+		left: 3%;
+	}
+	.car_wrap_right .car_sld_round_in_top{
+		border-right-color: #fff;
+    	border-bottom-color: transparent;
+	}
+	.car_sld_round_in_bottom, .car_wrap_right .car_sld_round_in_top{
+		bottom: initial;
+		left: initial;
+		top: -31px;
+		right: 3%;
+		transform: rotate(135deg);
+	}
+	.car_wrap_right .car_sld_round_in_bottom{
+		right: initial;
+    	left: 3%;
+	}
+	.car_sld{
+		float: none;
+	}
+	.car_right,.car_left {
+		float: none;
+		width: 100%;
+		padding: 0 30px 30px;
+		margin: 0;
+	}
+    .scr2_back{
+        bottom: -60px;
+    }
+    .number_btn{
+        padding: 11px 35px;
+    }
+    .border_screen_3 .border_title_bottom1 {
+        width: calc(50% - 250px);
+    }
+    .border_screen_3 .border_title_bottom2 {
+        width: calc(50% - 250px);
+    }
+    .border_t2 .border_title_bottom1 {
+        width: calc(50% - 260px);
+    }
+    .border_t2 .border_title_bottom2 {
+        width: calc(50% - 240px);
+    }
+    
+    .wrap_guarantee{
+        text-align: center;
+    }
+    .guarantee_block:first-child{
+        margin-left: 0;
+    }
+    .guarantee_block.block2{
+        margin-right: 0;
+    }
+    .guarantee_block:last-child{
+        margin: 0 0 50px;
+    }
+    
+    .offers_block{
+        margin: 60px 15px 50px;
+    }
+    .offers_block:last-child{
+        margin-top: 0;
+    }
+    
+    .contact_block{
+        width: 50%;
+    }
+    .contact_block:nth-child(2){
+        border-right: none
+    }
+    .contact_block:nth-child(3){
+        padding: 0;
+    }
+    .footer_nav .nav_ul li:hover a{
+        padding: 17px 0 22px;
+    }
+
+}
+@media only screen and (max-width:900px) {
+
+	.container, .container_auto {
+		width: 768px;
+	}
+    .nav_ul li{
+        margin-right: 20px;
+    }
+	.container_auto{
+		background-image: none;
+		margin-bottom: 40px;
+		margin-top: 30px;
+		padding: 0;
+        overflow: hidden;
+	}
+	.scr2_back{
+		display: none;
+	}
+	.price_car_text{
+		margin: 13px 25px 13px 0px;
+	}
+	.wrap_all_car_line .wrap_car_line2{
+		margin-bottom: 40px;
+	}
+	.wrap_all_car_line .wrap_car_line2,.wrap_all_car_line .wrap_car_line{
+		visibility: hidden;
+	}
+	.car_sld_round_in_bottom, .car_wrap_right .car_sld_round_in_top{
+		right: -6%;
+	}
+	.car_sld_round_in_top, .car_wrap_right .car_sld_round_in_bottom{
+		left: -6%;
+	}
+	.inner_wrap{
+		border: none;
+		margin: 0;
+	}
+    .number_btn{
+        font-size: 41px;
+        word-spacing: 6px;
+        padding: 11px 30px;
+    }
+    
+    .border_screen_3 .border_title_bottom1 {
+        width: calc(50% - 215px);
+    }
+    .border_screen_3 .border_title_bottom2 {
+        width: calc(50% - 215px);
+    }
+    .border_t2 .border_title_bottom1 {
+        width: calc(50% - 225px);
+    }
+    .border_t2 .border_title_bottom2 {
+        width: calc(50% - 205px);
+    }
+    .offers_block:first-child{
+        margin-top: 40px;
+    }
+    .offers_block{
+        margin: 0 10px 50px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .container, .container_auto {
+		width: 480px;
+	}
+    .nav{
+        display: none;
+    }
+    .logo{
+        float: left;
+        margin: 20px 0 20px 10px;
+        font-size: 24px;
+    }
+    .border_title{
+        width: 89%;
+        height: 80%;
+        left: 5%;
+    }
+	.car_class{
+		display: none;
+	}
+	.mob_car_class{
+		display: block;
+	}
+    .screen_1 h2{
+        font-size: 48px;
+    }
+    .title_p{
+        font-size: 32px;
+    }
+    .callAutoBtn{
+        padding: 20px 40px;
+    }
+    .mob_menu{
+        display: block;
+    }
+    .title_car{
+        font-size: 36px;
+    }
+    .filt_title{
+        margin: 20px 11px;
+    }
+    .brand {
+        margin: 0 0 15px 11px;
+    }
+    .place{
+        float: left;
+        margin-right: 0;
+        clear: both;
+    }
+    .place_text{
+        margin: 13px 148px 13px 11px;
+    }
+    .price_car_text {
+        margin: 13px 70px 13px 11px;
+    }
+    .price_slider{
+        width: 225px;
+    }
+    .car {
+        margin: 10px 0;
+    }
+    .car_sld_round_in_top, .car_wrap_right .car_sld_round_in_bottom {
+        left: -8%;
+    }
+    .car_sld_round_in_bottom, .car_wrap_right .car_sld_round_in_top {
+        right: -8%;
+    }
+    .all_car_prem, .all_car_bisn, .show_more{
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    .wrap_all_car_line .wrap_car_line2, .wrap_all_car_line .wrap_car_line{
+        visibility: visible;
+    }
+    .car_left{
+        width: 88%;
+    }
+    .border_screen_3{
+        height: 84%;
+    }
+    .border_screen_3 .border_title_bottom1,.border_t2 .border_title_bottom2, .border_screen_3 .border_title_bottom2, .border_t2 .border_title_bottom1 {
+        width: 50%;
+    }
+    .wrap_number_btn{
+        margin-left: 15px;
+    }
+    .number_btn{
+        padding: 19px 12px;
+        font-size: 26px;
+        word-spacing: 10px;
+    }
+    .guarantee_block:first-child{
+         margin: 130px 0 0;
+    }
+    .guarantee_block.block2{
+        margin: 110px 0 0;
+    }
+    .guarantee_block:last-child{
+        margin: 110px 0 50px;
+    }
+    .offers_block{
+        margin: 0 0 50px;
+    }
+    .wrap_contacts{
+        padding: 0 10px;
+    }
+    .contact_block{
+        padding: 0 !important;
+        border-right: none !important;
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    }
+    .contact_block:last-child{
+        border-bottom: none;
+    }
+    .contact_text{
+        display: inline-block;
+        width: 40%;
+    }
+    .contact_info{
+        display: inline-block;
+        width: 59%;
+        text-align: right;
+    }
+    .wrap_map{
+        padding: 0 10px;
+    }
+    .wrap_footer{
+        padding: 40px 0 25px
+    }
+    .wrap_question{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .call_quest{
+        width: 266px;
+        margin: 15px auto 0;
+    }
+    
+    .footer_nav .logo{
+        margin: 30px 0 0;
+    }
+    .insta_text{
+        display: none;
+    }
+    .wrap_insta{
+        position: absolute;
+        right: 10px;
+        bottom: 16px;
+        margin: 0;
+    }
+    .modal{
+        padding: 15px 12px;
+    }
+    .modal_input{
+        width: 275px;
+    }
+}
+@media only screen and (max-width:480px){
+    .container, .container_auto {
+		width: 320px;
+	}
+    .border_title{
+        height: 79%;
+    }
+    .screen_1 h2{
+        font-size: 36px;
+    }
+    .title_p{
+        font-size: 26px;
+    }
+    .smallBox{
+        font-size: 12px;
+    }
+    .wrap_call{
+        padding: 40px 0 6px;
+    }
+    .callAutoBtn{
+        padding: 15px 35px;
+        font-size: 14px;
+    }
+    .brand {
+        margin: 0 0 15px 11px;
+    }
+    .brand, .model{
+        width: 150px;
+    }
+    .price_car_text {
+        margin: 13px 23px 13px 11px;
+    }
+    .price_slider {
+        width: 215px;
+    }
+    .price_btn{
+        margin: 0 10px;
+        float: right;
+    }
+    .place_text {
+        margin: 13px 98px 13px 11px;
+    }
+    .car_sld_round_in_top, .car_wrap_right .car_sld_round_in_bottom {
+        left: -12%;
+    }
+    .car_sld_round_in_bottom, .car_wrap_right .car_sld_round_in_top {
+        right: -12%;
+    }
+    .car_order{
+        padding: 15px 98px;
+        margin: 5px 0;
+    }
+    .car_more{
+        padding: 15px 91px;
+        margin: 2px 0;
+    }
+    .all_car_prem, .all_car_bisn, .show_more{
+        font-size: 14px;
+        padding: 10px 65px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .wrap_all_car_line .wrap_car_line2, .wrap_all_car_line .wrap_car_line{
+        margin-top: -34px;
+        margin-bottom: 70px;
+    }
+    .screen_3_h2{
+        font-size: 36px;
+        margin: 40px auto;
+        padding: 0 10px;
+    }
+    .screen_3_p{
+        margin-bottom: 20px;
+    }
+    .border_screen_3{
+        width: 91%;
+        left: 4%;
+    }
+    .wrap_number_btn {
+        margin-left: 10px;
+    }
+    .wrap_guarantee{
+        padding: 0 10px
+    }
+    .guarantee_block:first-child{
+        padding: 116px 20px 36px;
+    }
+    .guarantee_block.block2{
+        padding: 116px 50px 36px;
+    }
+    .guarantee_block:last-child{
+        padding: 116px 20px 36px;
+    }
+    .offers_block.block1 .offers_text{
+        padding: 44px 60px;
+    }
+    .offers_block.block2 .offers_text{
+        padding: 36px 50px;
+    }
+    .offers_block.block3 .offers_text{
+        padding: 10px 15px 0;
+    }
+    .wrap_contacts{
+        margin: 30px 0 20px;
+    }
+    .contact_text{
+        margin: 16px 0;
+        width: 21%;
+        font-size: 18px;
+    }
+    .contact_info{
+        width: 77%;
+        font-size: 18px;
+    }
+}
