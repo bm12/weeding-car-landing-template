@@ -4,7 +4,7 @@
 		width: 900px;
 	}
 	.container_auto{
-		background-position: center 21px;/*, center bottom+24px;*/
+		background-position: center 22px;/*, center bottom+24px;*/
 	}
 	.price_car{
 		clear: both;
@@ -183,7 +183,7 @@
     .border_t2 .border_title_bottom2 {
         width: calc(50% - 205px);
     }
-    .offers_block:first-child{
+    .offers_block:not(:last-child) {
         margin-top: 40px;
     }
     .offers_block{
@@ -219,7 +219,10 @@
     .title_p{
         font-size: 32px;
     }
-    .callAutoBtn{
+    .callAutoBtn {
+        display: none;
+    }
+    .car_order_mob {
         padding: 20px 40px;
     }
     .mob_menu{
@@ -251,6 +254,16 @@
     .car {
         margin: 10px 0;
     }
+
+    .car_order{
+        display: none;
+    }
+    .car_order_mob, .cur_car_order_mob{
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+
     .car_sld_round_in_top, .car_wrap_right .car_sld_round_in_bottom {
         left: -8%;
     }
@@ -397,8 +410,12 @@
     .car_sld_round_in_bottom, .car_wrap_right .car_sld_round_in_top {
         right: -12%;
     }
-    .car_order{
+    /* .car_order{
         padding: 15px 98px;
+        margin: 5px 0;
+    } */
+    .cur_car_order_mob{
+        padding: 15px 75px;
         margin: 5px 0;
     }
     .car_more{

@@ -181,7 +181,7 @@ body{
     margin: 0;
 }
 
-.callAutoBtn {
+.callAutoBtn, .car_order_mob {
     font-family:Qanelas;
     padding: 27px 55px;
     margin: 0;
@@ -193,6 +193,10 @@ body{
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
+}
+.callAutoBtn:active, .car_order_mob:active {
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 #3d9aa1;
 }
 
 .wrap_call {
@@ -330,6 +334,7 @@ body{
     margin: 0 6px;
     border-left: 1px solid rgba(0, 0, 0, 0.15);
     border-right: 1px solid rgba(0, 0, 0, 0.15);
+    overflow: hidden;
 }
 .container_auto.box-shadow{
 	box-shadow:-14px 0px 60px -21px rgba(0, 0, 0, 0.1), 
@@ -495,6 +500,10 @@ body{
 	margin: 0 0 0 45px;
 	padding: 13px 16px;
 }
+.price_btn:active {
+    transform: translateY(4px);
+    box-shadow: 0 1px 0 #3d9aa1;
+}
 
 .car_sld{
 	width: auto!important;
@@ -624,7 +633,7 @@ body{
 	margin: 25px 0;
 }
 
-.car_order {
+.car_order, .cur_car_order_mob {
 	box-shadow: 0 2px 0 #3d9aa1;
 	border-radius: 25px;
 	border: 1px solid #6de0e8;
@@ -634,6 +643,15 @@ body{
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.car_order_mob, .cur_car_order_mob {
+    display: none;
+}
+
+.car_order:active, .cur_car_order_mob:active {
+    transform: translateY(2px);
+    box-shadow: none;
 }
 
 .car_more {
@@ -647,6 +665,10 @@ body{
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-left: 30px;
+}
+.car_more:active {
+    transform: translateY(2px);
+    box-shadow: none;
 }
 
 .car_sld_wrap {
@@ -963,7 +985,6 @@ body{
     padding: 116px 45px 36px;
     font-size: 26px;
     font-weight: 800;
-    display: inline-block;
     max-width: 350px;
     box-sizing: border-box;
     text-align: center;
@@ -1027,11 +1048,9 @@ body{
 
 .offers_block {
     max-width: 350px;
-    display: inline-block;
     border: 1px solid rgba(0,0,0,0.15);
     position: relative;
     margin: 60px 15px 100px;
-    vertical-align: middle;
 }
 .offers_block>.car_round_in{
     z-index: 10;
@@ -1068,7 +1087,13 @@ body{
 
 .wrap_offers {
     padding: 0 10px;
-    text-align: center;
+}
+.wrap_guarantee, .wrap_offers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .offers_text .numb_off {
@@ -1297,3 +1322,88 @@ textarea.modal_input{
 }
 
 
+.wrap_more_info {
+    display: none;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-left: none;
+    border-right: none;
+    position: relative;
+    width: 100%;
+    clear: both;
+}
+.more_info_img {
+    text-align: center;
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.92) 100%); */
+    width: 100%;
+    min-height: 505px;
+    display: table;
+    padding: 0 2px;
+    box-sizing: border-box;
+}
+.wrap_more_img {
+    /* display: inline-block; */
+    text-align: center;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.wrap_more_smallsld {
+    padding: 15px 25px 20px;
+}
+.also {
+    margin: 0;
+    padding: 5px 22px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.more_info_text {
+    padding: 25px;
+    text-align: center;
+}
+.info_text_block {
+    display: inline-block;
+    width: 24%;
+    vertical-align: top;
+    padding: 5px 0;
+}
+.info_text_block img {
+    max-height: 45px;
+    width: 100%;
+    height: auto;
+}
+.info_text {
+    font-size: 17px;
+    color: #000;
+    margin: 5px auto;
+}
+.more_small_owl .owl-nav .owl-prev, .more_small_owl .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    padding: 9px 1px 6px;
+    margin: 0;
+    width: 18px;
+    background: #fff;
+    border-radius: 0;
+}
+.more_small_owl .owl-nav .owl-prev {
+    transform: translateY(-50%);
+    left: -23px;
+}
+.more_small_owl .owl-nav .owl-next {
+    transform: translateY(-50%) rotate(180deg);
+    right: -23px;
+}
+.more_small_owl .owl-nav .owl-prev:hover, .more_small_owl .owl-nav .owl-next:hover {
+    background: rgba(0, 0, 0, 0.12);
+}
+.more_small_owl .item:hover:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.34);
+    cursor: pointer;
+}
