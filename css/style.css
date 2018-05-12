@@ -1,35 +1,35 @@
 @font-face {
     /*            Qanelas-SemiBold              */
     font-family: 'Qanelas';
-    src: url('../Fonts/Qanelas-SemiBold.otf');
+    src: url('../fonts/Qanelas-SemiBold.otf');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
     /*            Qanelas-ExtraBold             */
     font-family: 'Qanelas';
-    src: url('../Fonts/Qanelas-ExtraBold.otf');
+    src: url('../fonts/Qanelas-ExtraBold.otf');
     font-weight: 900;
     font-style: normal;
 }
 @font-face {
     /*              Qanelas-Bold                */
     font-family: 'Qanelas';
-    src: url('../Fonts/Qanelas-Bold.otf');
+    src: url('../fonts/Qanelas-Bold.otf');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     /*             Qanelas-Heavy                */
     font-family: 'Qanelas';
-    src: url('../Fonts/Qanelas-Heavy.otf');
+    src: url('../fonts/Qanelas-Heavy.otf');
     font-weight: 800;
     font-style: normal;
 }
 @font-face {
     /*             Qanelas-Medium               */
     font-family: 'Qanelas';
-    src: url('../Fonts/Qanelas-Medium.otf');
+    src: url('../fonts/Qanelas-Medium.otf');
     font-weight: 500;
     font-style: normal;
 }
